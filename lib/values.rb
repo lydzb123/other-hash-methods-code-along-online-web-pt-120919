@@ -8,8 +8,8 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
+
 def get_the_values(groceries)
   groceries.each do |food_type, food_item|
-    return food_type.values
-  end
+  binding.pru  end
 end
